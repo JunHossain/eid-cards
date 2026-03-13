@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eid Cards</title>
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1>Eid Cards</h1>
+
+  <div class="name-list">
+    <a class="name-card protected-link" data-card="Anisha" href="samples/Anisha/index.html">Anisha</a>
+    <a class="name-card protected-link" data-card="Arkive" href="samples/Arkive/index.html">Arkive</a>
+    <a class="name-card protected-link" data-card="Ema" href="samples/Ema/index.html">Ema</a>
+    <a class="name-card protected-link" data-card="Fairoj" href="samples/Fairoj/index.html">Fairoj</a>
+    <a class="name-card protected-link" data-card="Joti" href="samples/Joti/index.html">Joti</a>
+    <a class="name-card protected-link" data-card="Mome" href="samples/Mome/index.html">Mome</a>
+    <a class="name-card protected-link" data-card="Mou" href="samples/Mou/index.html">Mou</a>
+    <a class="name-card protected-link" data-card="Nazmul" href="samples/Nazmul/index.html">Nazmul</a>
+    <a class="name-card protected-link" data-card="Sadiya" href="samples/Sadiya/index.html">Sadiya</a>
+    <a class="name-card protected-link" data-card="Shimanto" href="samples/Shimanto/index.html">Shimanto</a>
+    <a class="name-card protected-link" data-card="Sukanta" href="samples/Sukanta/index.html">Sukanta</a>
+    <a class="name-card protected-link" data-card="Turjo" href="samples/Turjo/index.html">Turjo</a>
+  </div>
+
+</div>
+
+<!-- Search Button -->
+<div id="searchBtn">🔍</div>
+
+<!-- Search Box -->
+<div id="searchBox">
+  <input type="text" id="searchInput" placeholder="Search name..." />
+</div>
+
+<div id="cardPasswordModal" class="modal-overlay">
+  <div class="modal-box">
+    <h2 id="cardPasswordTitle">Enter Password</h2>
+    <input type="text" id="cardPasswordInput" placeholder="Password" />
+    <div class="modal-buttons">
+      <button id="cardPasswordSubmit">Open</button>
+      <button id="cardPasswordCancel" type="button">Cancel</button>
+    </div>
+    <p id="cardPasswordError" class="error-text"></p>
+  </div>
+</div>
+
+<script src="js/auth.js"></script>
+<script src="js/search.js"></script>
+</body>
+</html>
