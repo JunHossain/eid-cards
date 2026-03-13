@@ -13,7 +13,8 @@ let pendingCardKey = "";
   masterHash = hash of your master password
   cardHashes = hash of each person's password
 */
-const masterHash = "PUT_MASTER_HASH_HERE";
+const masterHash =
+  "97632c458af58dc3b9d9cdd9f39514bd25ca861e61e2881ac89bcc185a2d2491";
 
 const cardHashes = {
   Anisha: "24a489aa2add9a5f0c9b341ddd0a05d38a3baf61a5b4631c83e52fc8fb8504c3",
@@ -28,6 +29,7 @@ const cardHashes = {
   Shimanto: "6ef50feef1d07e00b22610e26f27f2668aab43333daa4bb8ed4668aaf4b9ddcc",
   Sukanta: "d6ef162d0699f312d6bd7f84b21e08831d794443516a7795121e1a64ab2d3290",
   Turjo: "24a489aa2add9a5f0c9b341ddd0a05d38a3baf61a5b4631c83e52fc8fb8504c3",
+  Tanju: "9726f81da9c9531b83e559e7328b1c7965f593d3865ab69d1e188a3e6e72f644",
 };
 
 async function sha256(text) {
