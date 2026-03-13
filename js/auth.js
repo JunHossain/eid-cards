@@ -17,6 +17,7 @@ const masterHash =
   "97632c458af58dc3b9d9cdd9f39514bd25ca861e61e2881ac89bcc185a2d2491";
 
 const cardHashes = {
+  Akif: "781ea259e614a394c7cc1b0ad38af3764255415c6d1a6564c8a0b772b802f60c",
   Anisha: "24a489aa2add9a5f0c9b341ddd0a05d38a3baf61a5b4631c83e52fc8fb8504c3",
   Arkive: "2a0deae6336d7e934315c4af8cf5c5b7e140da9fe5b0e2525a537188e08b4a67",
   Ema: "d740b3046e0a62b2e567a877c47fa2c4c1504c6f43acd61d3076283c257b0671",
@@ -36,6 +37,7 @@ const cardHashes = {
 };
 
 const accessMap = {
+  Akif: "access_Akif",
   Anisha: "access_Anisha",
   Arkive: "access_Arkive",
   Ema: "access_Ema",
