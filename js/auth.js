@@ -34,6 +34,24 @@ const cardHashes = {
   Turjo: "24a489aa2add9a5f0c9b341ddd0a05d38a3baf61a5b4631c83e52fc8fb8504c3",
 };
 
+const accessMap = {
+  Anisha: "access_Anisha",
+  Arkive: "access_Arkive",
+  Ema: "access_Ema",
+  Fairoj: "access_Fairoj",
+  Iqra: "access_Iqra",
+  Joti: "access_Joti",
+  Mome: "access_Mome",
+  Mou: "access_Mou",
+  Nazmul: "access_Nazmul",
+  Sadiya: "access_Sadiya",
+  Shimanto: "access_Shimanto",
+  Soma: "access_Soma",
+  Sukanta: "access_Sukanta",
+  Tanju: "access_Tanju",
+  Turjo: "access_",
+};
+
 async function sha256(text) {
   const encoder = new TextEncoder();
   const data = encoder.encode(text);
@@ -93,6 +111,7 @@ passwordSubmit.addEventListener("click", async function () {
   const cardHash = cardHashes[pendingCardKey];
 
   if (enteredHash === cardHash || enteredHash === masterHash) {
+    sessionStorage.setItem(accessMap[pendingCardKey], "granted");
     window.location.href = pendingHref;
   } else {
     passwordError.textContent = "Wrong password.";
