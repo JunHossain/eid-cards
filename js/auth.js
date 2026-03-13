@@ -23,6 +23,7 @@ const cardHashes = {
   Fairoj: "dc2314f11ab82715e0e5d2ad3f5c4cd77aecc0b7a7862ff5476733613dae5260",
   Iqra: "770a960deccb42f59bb9239aa5c5e12622efaf5de5ec7ed87addc50574a04d42",
   Joti: "384670e7f0d862ca9e3eecdb1b6f325a5b4767cd3a8b968371f7f58a35ba1eac",
+  Mahfuz: "216c1eeebade8fe77e27c5978ed41d608264dfcec91506f7971dae44e95d2be2",
   Mome: "f677e712f101c7677e634fd5597e54f8e1a06a2591a2a087afd0045d2e3c9232",
   Mou: "23e4c48e69981506d520bf8b396a2e8448012c7335bf9ad7f2bc2d89a873230a",
   Nazmul: "d6ef162d0699f312d6bd7f84b21e08831d794443516a7795121e1a64ab2d3290",
@@ -41,6 +42,7 @@ const accessMap = {
   Fairoj: "access_Fairoj",
   Iqra: "access_Iqra",
   Joti: "access_Joti",
+  Mahfuz: "access_Mahfuz",
   Mome: "access_Mome",
   Mou: "access_Mou",
   Nazmul: "access_Nazmul",
@@ -49,7 +51,7 @@ const accessMap = {
   Soma: "access_Soma",
   Sukanta: "access_Sukanta",
   Tanju: "access_Tanju",
-  Turjo: "access_",
+  Turjo: "access_Turjo",
 };
 
 async function sha256(text) {
