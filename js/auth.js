@@ -36,6 +36,7 @@ const cardHashes = {
   Sukanta: "d6ef162d0699f312d6bd7f84b21e08831d794443516a7795121e1a64ab2d3290",
   Tanju: "9726f81da9c9531b83e559e7328b1c7965f593d3865ab69d1e188a3e6e72f644",
   Turjo: "24a489aa2add9a5f0c9b341ddd0a05d38a3baf61a5b4631c83e52fc8fb8504c3",
+  Wasi: "1e45e9b8c24df525e03b95d16acf152cb89e9e6dd6b23a0f92bc8c6b4edafd2c",
 };
 
 const accessMap = {
@@ -58,6 +59,7 @@ const accessMap = {
   Sukanta: "access_Sukanta",
   Tanju: "access_Tanju",
   Turjo: "access_Turjo",
+  Wasi: "access_Wasi",
 };
 
 async function sha256(text) {
