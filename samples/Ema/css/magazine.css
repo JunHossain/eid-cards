@@ -444,3 +444,32 @@ body {
   bottom: 0;
   width: 100%;
 }
+
+.download-pdf {
+  position: fixed;
+  top: 20px;
+  left: 25px;
+
+  background: linear-gradient(135deg, #10b981, #22c55e);
+  color: white;
+  text-decoration: none;
+
+  padding: 12px 20px;
+  border-radius: 12px;
+
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+
+  z-index: 5000;
+
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.download-pdf:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
+}
