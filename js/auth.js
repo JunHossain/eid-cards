@@ -56,7 +56,7 @@ const accessMap = {
   Joti: "access_Joti",
   Mahfuz: "access_Mahfuz",
   Mome: "access_Mome",
-  Mominul: "acess_Mominul",
+  Mominul: "access_Mominul",
   Momit: "access_Momit",
   Mou: "access_Mou",
   Naimur: "access_Naimur",
